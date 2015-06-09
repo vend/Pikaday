@@ -219,6 +219,14 @@ Update the minimum/earliest date that can be selected.
 
 Update the maximum/latest date that can be selected.
 
+`picker.setStartRange()`
+
+Update the start range date if you are using multiple calendars with a range.
+
+`picker.setEndRange()`
+
+Update the end range date if you are using multiple calendars with a range.
+
 ### Show and hide datepicker
 
 `picker.isVisible()`
