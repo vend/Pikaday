@@ -990,13 +990,13 @@
                     day: 1 + (i - before),
                     month: month,
                     year: year,
-                    isSelected: isSelected,
-                    isToday: isToday,
                     isDisabled: isDisabled,
                     isEmpty: isEmpty,
-                    isStartRange: isStartRange,
                     isEndRange: isEndRange,
-                    isInRange: isInRange
+                    isInRange: isInRange,
+                    isSelected: isSelected,
+                    isStartRange: isStartRange,
+                    isToday: isToday
                 };
 
                 row.push(renderDay(dayConfig));
